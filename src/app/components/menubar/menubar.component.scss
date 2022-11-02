@@ -11,6 +11,7 @@
   cursor: pointer;
   background: #2C3878;
   color: #fff;
+  visibility: hidden;
 }
 
 a {
@@ -102,6 +103,16 @@ i{
 
 
 @media only screen and (min-width: 600px) {
+.contact-btn {
+  visibility: visible;
+  }
+
+li.menu{
+  .menuContact{
+    display: none;
+  }
+}
+
   #my-first{
   height: 150px;
 }
