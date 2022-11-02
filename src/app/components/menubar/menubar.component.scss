@@ -96,13 +96,13 @@ i{
   height: $menuHeight;
   line-height: $menuHeight;
   display: block;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 }
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
 .contact-btn {
   visibility: visible;
   }
@@ -111,13 +111,16 @@ li.menu{
   .menuContact{
     display: none;
   }
+  width: 100%;
+  justify-content:space-around;
+  margin-right: 5%;
 }
 
   #my-first{
   height: 150px;
 }
   a.menu-item {
-    width: 15%;
+    width: 35%;
       height: 130px;
       text-align: center;
   }
@@ -127,29 +130,19 @@ li.menu{
   }
 
   .logotype{
-    width: 25%;
+    width: 31%;
     padding: 10%;
   }
 
 
-    .contact-btn {
-      padding: 10px 10px;
-      width: 96px;
-      height: 40px;
-      font-size: 0.8rem;
+    button.contact-btn {
+      padding: 7px 7px;
+      width: 130px;
+      height: 43px;
+      font-size: 0.7rem;
     }
 
     .menu-item{
       font-size: 0.7rem;
     }
-}
-@media only screen and (min-width: 450px) {
-
-  a.menu-item {
-    width: 18%;
-  }
-
-  .menu {
-    width: 80%;
-  }
 }
