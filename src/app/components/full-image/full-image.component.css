@@ -1,0 +1,17 @@
+.fullImage img{
+width: 80%;
+}
+
+.fullImage{
+  margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+.fullImage img{
+height: 11.5rem;
+}
+}
