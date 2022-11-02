@@ -1,0 +1,85 @@
+
+
+  .ctaContainer {
+  height: 270px;
+  background-color: #2c3878;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 50px;
+  padding-top: 22px;
+  text-align: center;
+}
+
+.rightCta {
+  color: #d9d9d9;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 160%;
+}
+
+.leftCta {
+  color: #fff;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 170%;
+}
+
+.ctaButton {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 450px) {
+
+
+  .ctaContainer {
+  text-align: left;
+}
+}
+
+@media only screen and (min-width: 700px) {
+  .ctaContainer {
+    height: 203px;
+    background-color: #2c3878;
+    display: flex;
+    gap: 100px;
+    padding-left: 7%;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .rightCta {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 432px;
+  }
+
+  .leftCta {
+    font-size: 20px;
+    line-height: 50px;
+    width: 613px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+  .rightCta {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 432px;
+  }
+
+  .leftCta {
+    font-size: 20px;
+    line-height: 50px;
+    width: 613px;
+    font-size: 36px;
+  }
+}

@@ -11,6 +11,7 @@ import { BodyTextComponent } from './components/body-text/body-text.component';
 import { HalfImageComponent } from './components/half-image/half-image.component';
 import { CtaComponent } from './components/cta/cta.component';
 import { ContactBtnComponent } from './components/contact-btn/contact-btn.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactBtnComponent } from './components/contact-btn/contact-btn.compon
     BodyTextComponent,
     HalfImageComponent,
     CtaComponent,
-    ContactBtnComponent
+    ContactBtnComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

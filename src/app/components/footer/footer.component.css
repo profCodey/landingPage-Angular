@@ -1,0 +1,133 @@
+.footerContainer{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.circle{
+  border-radius: 50%;
+  background:#333333;
+  height: 14.017578125px;
+width: 14px;
+margin-top: 5px;
+margin-right: 10px;
+}
+
+.span{
+  display: flex;
+}
+
+.footerRight > input{
+  width: 100%;
+  border-top: none;
+   border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+    height: 30px;
+       font-weight: 400;
+font-size: 1rem;
+}
+
+
+
+.arrow{
+  width: 30px;
+  margin-left: auto;
+  text-align: right;
+  cursor: pointer;
+}
+
+.footerRight > p{
+   margin-bottom: 20px;
+   font-weight: 400;
+
+}
+
+.span > p{
+  font-size: 0.84rem;
+
+}
+ .footerLeft img{
+  margin-top: 30px;
+  width: 100px;
+
+}
+
+.footerLeft p{
+
+width: 90%;
+font-size: 1.1rem;
+font-weight: 600;
+line-height: 25px;
+}
+
+
+.footerLeft{
+  text-align: center;
+}
+
+.followUs{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footerLeft, .footerRight{
+  padding-bottom: 20px;
+}
+
+.socials{
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+.socials, .followUs{
+  text-align: left;
+}
+.footerLeft{
+  text-align: left;
+}
+.footerLeft p{
+     font-size: 1.8rem;
+}
+.footerLeft img{
+  width: 126px
+}
+
+.footerRight > p{
+font-size: 1.1rem;
+}
+
+.footerLeft, .footerRight{
+  padding-bottom: 30px;
+}
+
+}
+@media only screen and (min-width: 900px) {
+.footerContainer{
+ display: flex;
+  width: 85%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.footerRight{
+  width: 42%;
+}
+
+.footerLeft{
+   width: 58%;
+}
+
+.footerLeft p{
+     font-size: 36px;
+   line-height: 61.2px;
+   width: 77%;
+}
+
+ .footerLeft img{
+  margin-top: 0px;
+}
+}
